@@ -1,0 +1,17 @@
+{
+  "name": "budibase-s3-upload-anon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "svelte": "src/Component.svelte",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "rollup": "^3.29.5",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.2.2",
+    "svelte": "^5.34.3"
+  }
+}

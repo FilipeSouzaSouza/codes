@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "endpoint": {
+      "type": "string",
+      "title": "Endpoint de geração da URL",
+      "default": "https://budibase.mundiale.app/api/external/s3-presigned-upload/generateUploadUrl"
+    },
+    "folder": {
+      "type": "string",
+      "title": "Pasta de upload no S3",
+      "default": "uploads"
+    }
+  }
+}
