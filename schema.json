@@ -1,14 +1,38 @@
 {
-  "properties": {
-    "endpoint": {
-      "type": "string",
-      "title": "Endpoint de geração da URL",
-      "default": "https://budibase.mundiale.app/api/external/s3-presigned-upload/generateUploadUrl"
-    },
-    "folder": {
-      "type": "string",
-      "title": "Pasta de upload no S3",
-      "default": "uploads"
-    }
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "fieldsGenerate",
+    "friendlyName": "fieldsGenerate",
+    "description": "n/a",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "color",
+        "key": "colorBackgroudHeader",
+        "label": "Cor de fundo do cabeçalho"
+      },
+      {
+        "type": "color",
+        "key": "colorTextHeader",
+        "label": "Color texto cabeçalho"
+      },
+      {
+        "type": "color",
+        "key": "colorBackgroudTable",
+        "label": "Cor de fundo da tabela"
+      },
+      {
+        "type": "number",
+        "key": "fontSizeHeader",
+        "label": "Font Size Header"
+      },
+      {
+        "type": "number",
+        "key": "maxFields",
+        "label": "Qtd máxima de faixas",
+        "defaultValue": 4
+      }
+    ]
   }
 }
