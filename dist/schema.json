@@ -1,0 +1,40 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "fieldsGenerate",
+    "friendlyName": "fieldsGenerate",
+    "description": "n/a",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "color",
+        "key": "colorBackgroudHeader",
+        "label": "Cor de fundo do cabeçalho"
+      },
+      {
+        "type": "color",
+        "key": "colorTextHeader",
+        "label": "Color texto cabeçalho"
+      },
+      {
+        "type": "color",
+        "key": "colorBackgroudTable",
+        "label": "Cor de fundo da tabela"
+      },
+      {
+        "type": "number",
+        "key": "fontSizeHeader",
+        "label": "Font Size Header"
+      },
+      {
+        "type": "number",
+        "key": "maxFields",
+        "label": "Qtd máxima de faixas",
+        "defaultValue": 4
+      }
+    ]
+  },
+  "hash": "b0261939c336fe39609dcc6e61b1b20459e67ad6",
+  "version": "1.0.0"
+}
